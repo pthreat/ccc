@@ -1,0 +1,1 @@
+#define MAX_URI_LENGTH 2083
