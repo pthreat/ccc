@@ -9,11 +9,13 @@
 #include "include/colors.h"
 #include "include/log.h"
 #include "include/cmd_parser.h"
+#include "include/string_util.h"
 
 int main(int argc, char **argv){
 
-	Url u = newUrl("http://www.google.com/?q=ansi");
+	Url u = newUrl("http://jim:123456@www.google.com/?q=ansi");
 	debugUrl(&u);
+	freeUrl(&u);
 
 }
 

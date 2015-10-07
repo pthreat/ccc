@@ -1,9 +1,9 @@
 #ifndef __URL_H__
 #define __URL_H__
 
-#define	__URL_PROTOCOL_SIZE	8
-#define	__URL_USERNAME_SIZE	26
-#define	__URL_PASSWORD_SIZE	26
+#define	__URL_PROTOCOL_SIZE	10
+#define	__URL_USERNAME_SIZE	32
+#define	__URL_PASSWORD_SIZE	32
 #define	__URL_HOSTNAME_SIZE	80
 #define	__URL_QUERY_SIZE		80
 #define  __URL_MAXERROR_SIZE	500

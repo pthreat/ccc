@@ -1,2 +1,2 @@
-gcc main.c lib/url.c lib/log.c 
-./a.out
+gcc main.c lib/url.c lib/log.c lib/string_util.c -o ./bin/ccc
+./bin/ccc
