@@ -13,6 +13,7 @@
 
 int main(int argc, char **argv){
 
+	substr("test string",0,1);
 	Url u = newUrl("http://jim:123456@www.google.com/?q=ansi");
 	debugUrl(&u);
 	freeUrl(&u);
