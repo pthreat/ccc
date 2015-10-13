@@ -1,4 +1,5 @@
 #include <ctype.h>
+#include <stdargs.h>
 #include <stddef.h>
 #include <string.h>
 #include "../include/string_util.h"
@@ -31,9 +32,22 @@ void replace_control_characters(char *str, size_t len,char *replacement){
 
 }
 
-void substr_ptr(char *str, int start, int end){
+void substr_ptr(char *str, int start, ...){
 
 	int length	=	strlen(str);
+
+	if(start > length){
+
+		return;
+
+	}
+
+	int i			=	0;
+	char *temp	=	calloc(length,sizeof(char));
+
+	for(i=0;i<length,i++){
+		
+	}
 
 }
 
